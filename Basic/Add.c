@@ -6,12 +6,12 @@ int main(){
   printf("Enter Your Two Number:\n");
   scanf("%d %d", &a, &b);
     c = a + b;
-  printf(" The Sum of %d and %d is %d", a, b, c);
+  printf(" The Sum of %d and %d is %d\n", a, b, c);
     c = a - b;
-  printf(" The Sum of %d and %d is %d", a, b, c);
+  printf(" The Sum of %d and %d is %d\n", a, b, c);
     c = a * b;
-  printf(" The Sum of %d and %d is %d", a, b, c);
+  printf(" The Sum of %d and %d is %d\n", a, b, c);
     c = a / b;
-  printf(" The Sum of %d and %d is %d", a, b, c);
+  printf(" The Sum of %d and %d is %d\n", a, b, c);
   
 }
