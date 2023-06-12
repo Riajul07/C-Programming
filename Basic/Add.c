@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
-  printf("Hi this is test");
-  printf("\n");
-  printf("Hi this Riaz");
-  return 0;
+  int a, b, c;
+  printf("Enter Your Two Number:\n");
+  scanf("%d %d", &a, &b);
+  c = a + b;
+  printf(" The Sum of %d and %d is %d", a, b, c);
 }
