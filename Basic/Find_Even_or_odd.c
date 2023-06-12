@@ -10,6 +10,6 @@ main(){                                     // the line has been problem
     else{
         printf("Odd");
     }
+    printf("This is work");
     return 0;
-    
 }
