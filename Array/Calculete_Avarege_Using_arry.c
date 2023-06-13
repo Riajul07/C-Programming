@@ -19,5 +19,4 @@ int main(){
     avarge = sum / n;
     printf("Avarage of the numbers is  = %.2f", avarge);
     return 0;   
-    
 }
