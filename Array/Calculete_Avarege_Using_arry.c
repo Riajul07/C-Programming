@@ -1,4 +1,23 @@
 #include <stdio.h>
 int main(){
+    int n, i;
+    float num[100], sum=0, avarge;
+    printf("Ente the numbers of Elements:");
+    scanf("%d", &n);
+    while (n>100 || n<=0)
+        {
+            printf("Error! number should in the range of (1 to 100)\n");
+            printf("Enter the number Again\n");
+            scanf("%d", &n);   
+        }  
+        for ( i = 0; i < n; i++)
+             {
+                 printf("%d Enter number\t", i+1);
+                 scanf("%f", &num[i]);
+                 sum += num[i];
+            }
+    avarge = sum / n;
+    printf("Avarage of the numbers is  = %.2f", avarge);
+    return 0;   
     
 }
