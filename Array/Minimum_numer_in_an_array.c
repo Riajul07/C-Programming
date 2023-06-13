@@ -20,5 +20,6 @@ int main(){
         
     }
     printf("Minimum element is is present %d and its value is %d", location, array[location]);
+    return 0;
     
 }
